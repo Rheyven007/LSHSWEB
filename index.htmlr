@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="custom.css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-		
 		<script src="https://kit.fontawesome.com/3836672c2b.js" crossorigin="anonymous"></script>
 		<title>Home / Lian Senior High School</title>
 			
@@ -34,12 +33,13 @@
 		<div class="content">
 			
 		</div>
-		
+		<center>
 		<video controls>
 			<source src="vid/0525.mp4" type="video/mp4">
 			<source src="vid/0525.mp4" type="video/ogg">
 			Your browser does not support the video tag.
 		  </video>
+		  </center>
 		<footer>
 			<div class="term">
 				<a href="tof.html" class="tu">Term of Use |</a>
