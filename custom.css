@@ -152,9 +152,10 @@ h2{
     height: 68%;
     width: 100%;
 }
-iframe{
+video{
     height: 80%;
     width: 100%;
+    background-image:url(images/lc.jpg) ;
 }
 
 
