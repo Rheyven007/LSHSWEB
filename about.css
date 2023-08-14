@@ -1,0 +1,253 @@
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    .whole{
+      width: 100%;
+      height: 100%;
+    }
+ 
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.839)),url(background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+}
+nav .name_of_school{
+    color:green;
+    font-family:'poppins' , sans-serif;
+    font-weight: 900;
+    padding: 0 2rem;
+    flex: 1;
+    font-size: 25px;
+}
+.school_logo{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    padding: 1rem 1rem;
+}
+nav a:hover{
+    background-color: #a6a6a6;
+}
+ul{
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+    gap: 72px;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+}
+ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+ul:hover li a {
+    color: rgb(0, 0, 0);
+}
+ul:hover li a:not(:hover) {
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+.content{
+    background:transparent;
+    padding: 90px 100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.contentt{
+    background:transparent;
+    height: 120%;
+    padding: 90px 100px;
+    width: 100%;
+    display: flex;
+    gap: 55px;
+}
+.contentt p{
+    font-family:'poppins' , sans-serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.contenttt{
+    background:transparent;
+    height: 190%;
+    padding: 90px 100px;
+    width: 100%;
+    display: flex;
+    gap: 55px;
+}
+.contenttt p{
+    font-family: 'poppins' , sans-serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.help{
+    background:transparent;
+
+    padding: 90px 100px;
+    width: 100%;
+}
+.help p{
+    font-family: 'poppins' , sans-serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.content2{
+    background: transparent;
+    height: 50%;
+    padding: 50px 100px;
+    width: 100%;
+}
+.content3{
+    background:whitesmoke; 
+    height: 160%;
+    padding: 5px 100px;
+    width: 100%;
+}
+.content p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.pp{
+    height: 270px;
+    width: 600px;
+    padding-top: 30px;
+}
+.p2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 0px;
+    text-indent: 50px;
+    text-align: justify;
+}
+.p3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    text-indent: 50px;
+    text-align: justify;
+}
+.sp{
+    width: 400px;
+    height:200px;
+}
+.content4{
+    background-image: linear-gradient(rgba(229, 230, 229, 0.71),rgba(225, 225, 221, 0.928)),url(images/deped.jpg);
+   width: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   padding: 125px;
+   padding-top: 70px;
+}
+h5{
+    font-size: 40px;
+    text-align:center;
+    padding-top: 30px;
+    font-family: 'poppins' , sans-serif;
+}
+.vis{
+    padding-top: 5px;
+    font-family: 'poppins' , sans-serif;
+    font-size: 20px;
+    width: 100%;
+    line-height: 35px;
+    text-align:center;
+}
+footer{
+height:auto;
+}
+.fpic{
+    height:auto;
+    width: 100%;
+}
+
+.ltc{
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    gap: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.term{
+  padding: 30px  ;
+  font-family: 'poppins' , sans-serif;
+  font-size: 18px;
+  height: 670px;
+  width: 40%;
+border: 1px solid black;
+}
+.term .tu{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.term .tu:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.term2{
+    position: absolute;
+    padding: 50px ;
+    padding-right: 100px;
+    right: 10px;
+    font-family: 'poppins' , sans-serif;
+    font-size: 18px;
+  }
+  .term2 .tu2{
+  color: whitesmoke;
+  text-decoration: none;
+  }
+  .term2 .tu2:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    }
+
+
+
+

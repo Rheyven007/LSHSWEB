@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .whole{
+      width: 100%;
+      height: 100%;
+    }
+  }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.839)),url(background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+}
+nav .name_of_school{
+    color:green;
+    font-family:'poppins' , sans-serif;
+    font-weight: 900;
+    padding: 0 2rem;
+    flex: 1;
+    font-size: 25px;
+}
+.school_logo{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    padding: 1rem 1rem;
+}
+nav a:hover{
+    background-color: #a6a6a6;
+}
+ul{
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+    gap: 60px;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+}
+ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+ul:hover li a {
+    color: rgb(0, 0, 0);
+}
+ul:hover li a:not(:hover) {
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+.intro{
+    width: 100%;
+    padding: 80px 30px 10px 30px;
+    
+    height: 20%;
+}
+p{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.p2{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    width: 100%;
+    line-height: 35px;
+    padding-top: 7px;
+    text-align: justify;
+}
+.gallery{
+    display: flex;
+    width:100%;
+    height: 260px;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+.gallery img{
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    filter:gray;
+    -webkit-filter: grayscale(0.1);
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.gallery img:hover{
+    flex: 1 1 280px;
+    opacity:1;
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
+.discription{
+    width: 100%;
+    padding: 10px 40px 0px 40px;
+    height: 40%;
+}
+li{
+    list-style: circle;
+    font-family:l;
+    font-size: 18px;
+    width: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.register{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+}
+.app{
+    font-family: 'poppins' , sans-serif;
+    background:transparent;
+    
+    padding: 10px 70px 10px 70px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius:20px ;
+    border: 2px solid rgb(255, 191, 0);
+}
+.app:hover{
+    font-family: 'poppins' , sans-serif;
+    background-color:green;
+    padding: 10px 70px 10px 70px;
+    color:  #ffc107;
+    text-decoration: none;
+    transition: 0.4s;
+}
+footer{
+    background-color:green;
+}
+.term{
+    position: absolute;
+    padding: 50px ;
+    padding-right: 100px;
+    right: 10px;
+    font-family: 'poppins' , sans-serif;
+    font-size: 18px;
+  }
+  .term .tu{
+  color: whitesmoke;
+  text-decoration: none;
+  }
+  .term .tu:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    }
+  .fpic{
+    height: 100%;
+    width: 100%;
+}
